@@ -1,6 +1,8 @@
 body {
-  background-image: url("background.jpg");
+  background-image: url("background.png");
   background-attachment: fixed;
+  background-size: cover;
+
   color: white;
   font-family: "Lucida Console";
   margin: 0px;
