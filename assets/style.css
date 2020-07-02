@@ -1,0 +1,49 @@
+body {
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  color: white;
+  font-family: "Lucida Console";
+  margin: 0px;
+  font-weight: lighter;
+  letter-spacing: 0.05rem;
+  font-size: 16px;
+}
+
+body, html {
+  height: 70%;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+table {
+  padding-top: 20px;
+}
+
+td {
+  padding-right: 20px;
+}
+
+.parallax {
+  background-image: url('parallax.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  letter-spacing: .3rem;
+  font-weight: lighter;
+  font-family: Courier;
+}
+
+header, footer, section {
+    padding: 100px;
+}
