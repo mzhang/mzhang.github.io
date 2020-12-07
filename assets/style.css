@@ -20,14 +20,17 @@ body, html {
   height: 70%;
 }
 
-p {
+p,li {
   font-size: 1em;
   margin: 1em 0;
 }
 
 h1 {
   font-size: 5rem;
-  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 3rem;
 }
 
 table {
@@ -39,7 +42,8 @@ td {
 }
 
 .parallax {
-  background-image: url('parallax.png');
+  background-image: url('parallax.jpg');
+  
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -47,8 +51,9 @@ td {
   background-size: cover;
 }
 
-h1, h2 {
+h1, h2, h3 {
   letter-spacing: .3rem;
+  margin-bottom: 1em;
   font-weight: lighter;
   font-family: Courier;
 }
