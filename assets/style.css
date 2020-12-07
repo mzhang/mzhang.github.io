@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("background.png");
+  background-image: url("background.webp");
   background-attachment: fixed;
   background-size: cover;
 
@@ -42,7 +42,7 @@ td {
 }
 
 .parallax {
-  background-image: url('parallax.jpg');
+  background-image: url('parallax.webp');
 
   height: 100%;
   background-attachment: fixed;
