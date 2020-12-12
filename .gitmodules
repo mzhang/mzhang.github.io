@@ -1,0 +1,3 @@
+[submodule "impossibleHangman"]
+	path = impossibleHangman
+	url = https://github.com/mzhang/impossibleHangman
