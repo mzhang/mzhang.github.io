@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+  font-family: "Quicksand", "Lucida Console";
+  letter-spacing: 0.05rem;
+  
+  width:90%;
+  background-color: darkslategrey;
+
+}
+
+section {
+  padding-top: 5%;
+}
+
+
+
+/* 
+h1 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h1, h2, h3 {
+  letter-spacing: .3rem;
+  font-weight: lighter;
+  font-family: Courier;
+}
+
+footer + ul {
+  list-style-type:none;
+} */
+
+a {
+  color:grey;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+    text-decoration:underline;
+}
