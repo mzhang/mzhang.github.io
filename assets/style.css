@@ -6,12 +6,27 @@ body {
   
   width:90%;
   background-color: darkslategrey;
-
 }
 
 section {
-  padding-top: 5%;
+  padding-top: 30%;
 }
+
+.card{
+  background: hsla(0,0,0,0);
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#banner-bottom {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
 
 
 
@@ -33,12 +48,3 @@ h1, h2, h3 {
 footer + ul {
   list-style-type:none;
 } */
-
-a {
-  color:grey;
-  text-decoration:none;
-}
-
-a:hover, a:focus {
-    text-decoration:underline;
-}
