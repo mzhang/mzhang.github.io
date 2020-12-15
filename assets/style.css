@@ -5,7 +5,7 @@ body {
   letter-spacing: 0.05rem;
   
   width:90%;
-  background-color: darkslategrey;
+  background-color: white;
 }
 
 section {
@@ -26,6 +26,9 @@ section {
   padding-bottom: 0px;
 }
 
+footer {
+  padding-bottom: 10%;
+}
 
 
 
