@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\bootstrapPractice"
+		},
+		{
+			"path": "..\\..\\Downloads\\startbootstrap-grayscale-gh-pages"
+		},
+		{
+			"path": "..\\personalWebsiteWorking"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personalWebsiteWorking"
+	}
+}

@@ -1,3 +1,6 @@
 [submodule "impossibleHangman"]
 	path = hangman
 	url = https://github.com/mzhang/impossibleHangman
+[submodule "snake"]
+	path = snake
+	url = https://github.com/mzhang/snake
