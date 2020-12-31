@@ -11,7 +11,7 @@
     <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico"/>
   </head>
 
-  <body class="container ">
+  <body class="container">
 
     <section style="padding-top: 40%;"><div class="jumbotron-fluid bg-white" style="padding: 10% 10% 3% 5%;">
       <div class="container">
@@ -35,6 +35,8 @@
         </li>
       </ul>
     </nav>
+
+    <div style="padding: 10%;"></div>
 
     <section id="projects">
       <div class="card mb-3" style="max-width: 100%;">
@@ -79,16 +81,24 @@
       </div>
     </section>
 
-    <section>
-      <div class="card mb-3 text-center" style="max-width: 100%;">
+    <section id="projects">
+      <div class="card mb-3" style="max-width: 100%;">
         <div class="row no-gutters">
-          <div class="col-md-12">
+          <div class="col-md-4">
+            <img class="card-img-top" style="height: 100%px; width: 100%; display: block;" src="./assets/970.jpg">
+          </div>
+          <div class="col-md-8">
             <div class="card-body">
-              <p class="card-text">Please take a look at my <a href="/assets/resume.pdf" download>resume</a>!</p>
-              
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
             </div>
         </div>
-
       </div>
     </section>
 
@@ -127,12 +137,18 @@
         </div>
     </div></section>
 
-    <section><footer><div class="text-center container">
-      <a class="btn btn-primary btn-lg" href="https://github.com/mzhang">GitHub</a>
-      <a class="btn btn-primary btn-lg" href="mailto:m@zhang.software">Email</a>
-    </div></footer></section>
-
-
+    <section>
+      <div class="card mb-3 text-center" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <div class="card-body">
+              <p class="card-text">Since you've scrolled this far, please take a look at my <a class="btn btn-primary btn-xs" href="/assets/resume.pdf" download>resume</a>!</p>
+              Or check out my <a class="btn btn-primary btn-xs" href="https://github.com/mzhang">GitHub</a>?
+              Or maybe <a class="btn btn-primary btn-xs" href="mailto:m@zhang.software">Email</a> me?
+            </div>
+        </div>
+      </div>
+    </section>
 
   </body>
 </html>
