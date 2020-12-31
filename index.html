@@ -104,7 +104,7 @@
       </div>
     </section> -->
 
-    <section>
+    <section id="minigames">
       <div class="container" style="width: 80%;">
       <div class="row">
         <div class="col-md-6">
@@ -117,7 +117,7 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://zhang.software/hangman">Play</a></button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/mzhang/impossibleHangman">GitHub</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Javascript</small>
               </div>
             </div>
           </div>
@@ -132,14 +132,14 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://zhang.software/snake">Play</a></button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/mzhang/snake">GitHub</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Javascript</small>
               </div>
             </div>
           </div>
         </div>
     </div></section>
 
-    <section>
+    <section id="resume">
       <div class="card mb-3 text-center" style="max-width: 100%;">
         <div class="row no-gutters">
           <div class="col-md-12">
@@ -151,6 +151,17 @@
         </div>
       </div>
     </section>
-
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <script>
+      $('.switch').click(()=>{
+    $([".light [class*='-light']", ".dark [class*='-dark']"]).each((i,ele)=>{
+        $(ele).toggleClass('bg-light bg-dark')
+        $(ele).toggleClass('text-light text-dark')
+        $(ele).toggleClass('navbar-light navbar-dark')
+    })
+    // toggle body class selector
+    $('body').toggleClass('light dark')
+})
+      </script>
   </body>
 </html>
