@@ -50,8 +50,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">97.0FM</h5>
-              <p class="card-text">A discord bot that helps you out with figuring out what music to play!</p>
-              <p>Ever been in a call where noone knows want song they want to hear your discord bot play? Or maybe noone is brave enough to bear the responsibilities of choosing for the squad? Just do .s [song title]!</p>
+              <p class="card-text">A discord bot that helps you out with figuring out what music to play!<br>Ever been in a call where noone knows want song they want to hear your discord bot play? Or maybe noone is brave enough to bear the responsibilities of choosing for the squad? Just do .s [song title]!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/mzhang/97.0FM/">GitHub</a></button>
@@ -70,7 +69,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Clean Timer</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">A Java cube timer that's nice and clean!<br>Scramble with the randomly generated sequence above the timer, then long press anywhere to start inspection. Below the timer is the most recent 5 solves and your Ao5. Swipe vertically for swipe for your solve history and stats!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/mzhang/cleanTimer">GitHub</a></button>
@@ -148,7 +147,7 @@
         <div class="row no-gutters">
           <div class="col-md-12">
             <div class="card-body">
-              <p class="card-text">Since you've scrolled this far, please take a look at my <a class="btn btn-primary btn-xs" href="/assets/resume.pdf" download>resume</a>!</p>
+              <p class="card-title">Since you've scrolled this far, please take a look at my <a class="btn btn-primary btn-xs" href="/assets/resume.pdf" download>resume</a> !</p>
               Or check out my <a class="btn btn-primary btn-xs" href="https://github.com/mzhang">GitHub</a>?
               Or maybe <a class="btn btn-primary btn-xs" href="mailto:m@zhang.software">Email</a> me?
             </div>
@@ -159,7 +158,8 @@
     <script>
       function myFunction() {
         document.body.classList.toggle("dark-mode");
-        document.getElementById("navBar").classList.toggle("dark-mode");
+        let cards = document.querySelectorAll("div.card")
+        cards.forEach(element => element.classList.toggle("border-light"))
 }
     </script>
 
