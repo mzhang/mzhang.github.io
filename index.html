@@ -14,7 +14,7 @@
   </head>
 
   <body class="container">
-    <button style="position: fixed;" onclick="myFunction()">Toggle dark mode</button>
+    <button style="margin: 10% 90%; padding: 0px; width:4em; height: 4em;" class="btn bmd-btn-fab rounded-circle fixed-bottom btn-primary" onclick="toggleNight()"><h2 id="toggleButtonText">🌙</h2></div></button>
 
     <section style="padding-top: 40%;"><div class="jumbotron-fluid" style="padding: 10% 10% 3% 5%;">
       <div class="container">
@@ -156,11 +156,16 @@
     </section>
 
     <script>
-      function myFunction() {
+      let isDark = true;
+      function toggleNight() {
         document.body.classList.toggle("dark-mode");
-        let cards = document.querySelectorAll("div.card")
-        cards.forEach(element => element.classList.toggle("border-light"))
+        let cards = document.querySelectorAll("div.card");
+        cards.forEach(element => element.classList.toggle("border-light"));
         document.getElementById("navBar").classList.toggle("dark-mode");
+        
+        if (isDark) document.getElementById("toggleButtonText").innerHTML="☀️";
+        else document.getElementById("toggleButtonText").innerHTML="🌙";
+        isDark=!isDark
 }
     </script>
 

@@ -31,21 +31,29 @@ section {
 }
 
 
-/* 
-h1 {
-  font-size: 5rem;
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
 }
 
-h3 {
-  font-size: 3rem;
+.my-float{
+	margin-top:22px;
 }
 
-h1, h2, h3 {
-  letter-spacing: .3rem;
-  font-weight: lighter;
-  font-family: Courier;
+.btn-circle {
+  width: 5em;
+  height: 5em;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
 }
-
-footer + ul {
-  list-style-type:none;
-} */
