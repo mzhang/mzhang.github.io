@@ -1,76 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-image: url("background.webp");
-  background-attachment: fixed;
-  background-size: cover;
-
-  color: white;
   font-family: "Quicksand", "Lucida Console";
   letter-spacing: 0.05rem;
-  font-size: 18px;
+  
+  width:90%;
+  background-color: white;
 }
 
-body, html {
-  height: 70%;
+section {
+  padding-top: 15%;
 }
 
-p,li {
-  font-size: 1em;
-  margin: 1em 0;
+.jumbotron {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-h1 {
-  font-size: 5rem;
+#banner-bottom {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.navbar {
+  background-color: white;
 }
 
-h3 {
-  font-size: 3rem;
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
-table {
-  margin-top: 20px;
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
 }
 
-td {
-  margin-right: 20px;
+.my-float{
+	margin-top:22px;
 }
 
-.parallax {
-  background-image: url('parallax.webp');
-
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-h1, h2, h3 {
-  letter-spacing: .3rem;
-  margin-bottom: 1em;
-  font-weight: lighter;
-  font-family: Courier;
-}
-
-header, footer, section {
-    margin: 100px;
-}
-
-footer + ul {
-  list-style-type:none;
-}
-
-a {
-  color:grey;
-  text-decoration:none;
-}
-
-a:hover, a:focus {
-    text-decoration:underline;
+.btn-circle {
+  width: 5em;
+  height: 5em;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
 }
