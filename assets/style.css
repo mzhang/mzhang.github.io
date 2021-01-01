@@ -21,12 +21,15 @@ section {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+.navbar {
+  background-color: white;
+}
 
 .dark-mode {
   background-color: black;
   color: white;
-  border-color: white;
 }
+
 
 /* 
 h1 {
