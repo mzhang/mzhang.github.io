@@ -5,19 +5,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>Matt Zhang</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
 
     <link rel="stylesheet" href="./assets/style.css" type="text/css">
     <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico"/>
+    
   </head>
 
-  <body class="container dark-mode">
+  <body class="container">
     <button style="position: fixed;" onclick="myFunction()">Toggle dark mode</button>
 
-    <section style="padding-top: 40%;"><div class="jumbotron-fluid bg-transparent" style="padding: 10% 10% 3% 5%;">
+    <section style="padding-top: 40%;"><div class="jumbotron-fluid" style="padding: 10% 10% 3% 5%;">
       <div class="container">
         <h1 class="display-4">Matt Zhang</h1>
         <br class="my-4">
@@ -26,7 +25,7 @@
       </div>
     </div></section>
     
-    <nav class="navbar justify-content-center sticky-top navbar-light bg-transparent">
+    <nav id="navBar" class="navbar justify-content-center sticky-top navbar-light">
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link active" href="#projects">Projects</a>
@@ -64,6 +63,7 @@
         </div>
       </div>
     </section>
+
     <section>
       <div class="card mb-3 bg-transparent" style="max-width: 100%;">
         <div class="row no-gutters">
@@ -158,8 +158,8 @@
 
     <script>
       function myFunction() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
+        document.body.classList.toggle("dark-mode");
+        document.getElementById("navBar").classList.toggle("dark-mode");
 }
     </script>
 

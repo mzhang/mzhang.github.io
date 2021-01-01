@@ -12,10 +12,6 @@ section {
   padding-top: 15%;
 }
 
-.card{
-  background: hsla(0,0,0,0);
-}
-
 .jumbotron {
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -26,13 +22,10 @@ section {
   padding-bottom: 0px;
 }
 
-footer {
-  padding-bottom: 10%;
-}
-
 .dark-mode {
   background-color: black;
   color: white;
+  border-color: white;
 }
 
 /* 
