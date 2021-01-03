@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  padding-top: 15%;
+  padding-top: 25vh;
 }
 
 .jumbotron {
@@ -61,7 +61,7 @@ section {
 }
 
 .parallax {
-  background-image: url('parallax.jpg');
+  background-image: url('parallax.webp');
   position:absolute;
   left:0%;
   right:0%;
