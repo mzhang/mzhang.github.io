@@ -57,3 +57,16 @@ section {
   font-size: 12px;
   line-height: 1.42857;
 }
+
+.parallax {
+  background-image: url('parallax.jpg');
+  position:absolute;
+  left:0%;
+  right:0%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+  height: 15%;
+}
