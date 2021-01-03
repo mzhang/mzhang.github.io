@@ -7,7 +7,9 @@ body {
   width:90%;
   background-color: white;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 section {
   padding-top: 15%;
 }

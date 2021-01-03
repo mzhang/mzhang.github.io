@@ -24,7 +24,7 @@
       </div>
     </div></section>
     
-    <nav id="navBar" data-aos="fade-left" class="navbar justify-content-center sticky-top navbar-light">
+    <nav id="navBar" style="width: 100vw; margin-left: calc(-1 * ((100vw - 100%) / 2));"class="navbar justify-content-center sticky-top navbar-light">
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link active" href="#projects">Projects</a>
@@ -175,7 +175,8 @@
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({duration: 1000});
+      AOS.init({duration: 1500,
+        mirror: true});
     </script>
     
   </body>
