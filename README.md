@@ -1,7 +1,5 @@
 # mzhang.github.io
 
-Hello!
+## :wave: Hey, stranger! 
 
-This is a published version of github.com/mzhang/personalWebsite. Hopefully after I iron out all the wrinkles. 
-
-Come visit at https://zhang.software!
+How did you end up here? Go look at the [real thing](zhang.software)!
