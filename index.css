@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Courier+Prime&display=swap');
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, #e83f75, #fc7292,#f1bbab,#fff5ed);
+
+    margin:0;
+    padding:0;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite alternate;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(1.4deg);
+    }
+    50% {
+        transform: rotate(-1.4deg);
+    }
+    100% {
+        transform: rotate(1.4deg);
+    }
+}
+
+.hitbox {
+    background-color: transparent;
+    aspect-ratio: 3/2;
+    width: 20%;
+    min-width: 300px;
+    min-height: 200px;
+    perspective: 1000px; 
+}
+
+.hitbox:not(:hover){
+    animation: wiggle 2s infinite;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+
+    background: #fff;
+}
+
+.hitbox:hover .card {
+    transform: scale(1.5) rotateY(180deg);
+}
+
+@media screen and (max-width: 500px) {
+    .hitbox:hover .card {
+        transform: rotateY(180deg);
+    }
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;  
+}
+
+.front {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bungee Hairline', monospace;
+    font-size: 2.5rem;
+}
+
+.back {
+    transform: rotateY(180deg);
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.back-body {
+    margin: 1rem 1rem;
+}
+
+.back p {
+    font-size: 0.7rem;
+    margin: 0rem;
+}
+
+.back table {
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    border-collapse: separate; 
+    border-spacing: 1rem 0;
+    margin-left: -1rem;
+}
+
+.back a {
+    font-size: 0.7rem;
+} 
+.back tr {
+    transition: transform 0.5s;
+}
+.back tr:hover {
+    transform: scale(1.2) translateX(1rem);
+} 
