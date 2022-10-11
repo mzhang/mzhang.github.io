@@ -27,13 +27,13 @@ body {
 
 @keyframes wiggle {
     0% {
-        transform: rotate3d(0.2, 0, 0.2, -5deg);
+        transform: rotate(-1.5deg);
     }
     50% {
-        transform: rotate3d(0.2, 0, 0.2, 5deg);
+        transform: rotate(1.5deg);
     }
     100% {
-        transform: rotate3d(0.2, 0, 0.2, -5deg);
+        transform: rotate(-1.5deg);
     }
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .hitbox:hover .card, .hitbox:active .card {
-    transform: scale(1.5) rotateY(180deg);
+    transform: scale(1.5) rotateY(-180deg);
 }
 
 .card {
@@ -89,10 +89,10 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;  
     
-    transform: rotateX(0deg);
+    /* fixes for ff + safari */
+    -webkit-backface-visibility: hidden; /* Safari */
 }
 
 .front {
