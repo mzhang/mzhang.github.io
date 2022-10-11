@@ -55,6 +55,8 @@ body {
     width: 20%;
     min-width: 300px;
     min-height: 200px;
+    perspective: 1000px;
+
 }
 
 .hitbox:not(:hover, :active) {
