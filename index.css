@@ -27,13 +27,13 @@ body {
 
 @keyframes wiggle {
     0% {
-        transform: rotate(-1.5deg);
+        transform: rotate(1deg);
     }
     50% {
-        transform: rotate(1.5deg);
+        transform: rotate(-1deg);
     }
     100% {
-        transform: rotate(-1.5deg);
+        transform: rotate(1deg);
     }
 }
 
@@ -57,7 +57,7 @@ body {
     min-height: 200px;
 }
 
-.hitbox:not(:hover) {
+.hitbox:not(:hover, :active) {
     animation: wiggle 4s ease-in-out infinite;
 }
 
