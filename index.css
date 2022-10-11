@@ -27,13 +27,13 @@ body {
 
 @keyframes wiggle {
     0% {
-        transform: rotate3d(0.2, 1, 0.2, 0deg);
+        transform: rotate3d(0.2, 1, 0.2, -5deg);
     }
     50% {
-        transform: rotate3d(0.2, 1, 0.2, 20deg);
+        transform: rotate3d(0.2, 1, 0.2, 10deg);
     }
     100% {
-        transform: rotate3d(0.2, 1, 0.2, 0deg);
+        transform: rotate3d(0.2, 1, 0.2, -5deg);
     }
 }
 
@@ -41,8 +41,11 @@ body {
     0% {
         transform: rotate3d(0.2, 1, 0.2, 0deg);
     }
-    20% {
-        transform: rotate3d(0.2, 1, 0.2, 180deg);
+    50% {
+        transform: rotate3d(0.2, 1, 0.2, 160deg);
+    }
+    100% {
+        transform: rotate3d(0.2, 1, 0.2, 0deg);
     }
 }
 
@@ -56,10 +59,10 @@ body {
 }
 
 .hitbox:not(:hover){
-    animation: wiggle 6s ease-in-out infinite;
+    animation: wiggle 4s ease-in-out infinite;
 }
 
-.hitbox:hover .card {
+.hitbox:hover .card, .hitbox:active .card {
     transform: scale(1.5) rotateY(180deg);
 }
 
