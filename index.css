@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    perspective: 1000px;
 }
 
 @keyframes wiggle {
@@ -55,8 +56,6 @@ body {
     width: 20%;
     min-width: 300px;
     min-height: 200px;
-    perspective: 1000px;
-
 }
 
 .hitbox:not(:hover, :active) {
