@@ -1,3 +1,3 @@
-## :wave: Hey, stranger! 
+## :wave: Hi! 
 
-How did you end up here? Go look at the [real thing](https://zhang.software)!
+Go look at the [real thing](https://zhang.software)!
